@@ -1,0 +1,205 @@
+# Copyright (C) 2020 Inspire Labs
+# This file is distributed under the same license as the WooCommerce SMSAPI.pl plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce SMSAPI.pl 2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-smsapi-pl\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-07-21T14:51:26+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: woocommerce-smsapi\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce SMSAPI.pl"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://www.wpdesk.pl/sklep/smsapi-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+msgid "WooCommerce integration with <a href=\"https://ssl.smsapi.pl/rejestracja/4PT2\" target=\"_blank\">SMSAPI.pl</a>."
+msgstr ""
+
+#. Author of the plugin
+msgid "Inspire Labs"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.inspirelabs.pl/"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:38
+msgid "SMSAPI"
+msgstr ""
+
+#. translators: %s: URL
+#: class/wcSmsApiIntegration.php:42
+msgid "WooCommerce integration with SMSAPI. <a href=\"%s\" target=\"_blank\">Check out the docs &rarr;</a>"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:95
+msgid "{customer} - Customer first name and last name"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:100
+msgid "{number} - Order number"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:105
+msgid "{phone} - Customer phone number"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:110
+msgid "{total_price} - Total Order value"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:202
+#: class/wcSmsApiIntegration.php:426
+msgid "SMS Marketing"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:372
+msgid "Error. Please fill in valid API Token."
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:375
+msgid "OK"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:379
+msgid "Connection status:"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:398
+#: class/wcSmsApiIntegration.php:447
+#: class/wcSmsApiIntegration.php:468
+#: class/wcSmsApiIntegration.php:489
+msgid "Enable"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:399
+msgid "Enable SMSAPI integration"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:404
+msgid "API version"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:411
+msgid "API Token"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:414
+msgid "SMSAPI API Token. You can generate it in SMSAPI customer panel."
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:418
+msgid "SMS Sender name"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:422
+msgid "Only names with \"Active\" status are available. The status can be checked in the SMSAPI customer panel."
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:425
+msgid "Enable user consent to SMS Marketing"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:429
+msgid "Checkbox will be added to checkout page allowing users to agree to SMS marketing."
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:432
+msgid "Checkbox label"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:434
+msgid "I agree to receiving marketing content via SMS"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:437
+msgid "Checkbox position"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:440
+msgid "Above Place order button"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:441
+msgid "Below Place order button"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:446
+msgid "Processing order SMS"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:450
+msgid "SMS will be sent when order status is changed to processing."
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:454
+msgid "Processing order SMS text"
+msgstr ""
+
+#. translators: %s: Name of a blog
+#: class/wcSmsApiIntegration.php:458
+msgid "Your order number {number} status  at %s changed to processing."
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:460
+#: class/wcSmsApiIntegration.php:481
+msgid "One SMS is a maximum of 160 characters. Note that if you enter special characters (including Polish characters), the limit will be 70 characters. If this value is exceeded, the system will send a message as several linked SMSes - up to 1530 characters (or 670 with special characters) as 10 linked SMSs, charging the account according to the current price list."
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:462
+#: class/wcSmsApiIntegration.php:483
+msgid "List of available parameters that can be used in the message:"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:467
+msgid "Completed order SMS"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:471
+msgid "SMS will be sent when order status is changed to completed."
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:475
+msgid "Completed order SMS text"
+msgstr ""
+
+#. translators: %s: Name of a blog
+#: class/wcSmsApiIntegration.php:479
+msgid "Your order number {number} status at %s changed to completed."
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:488
+msgid "Customer note SMS"
+msgstr ""
+
+#: class/wcSmsApiIntegration.php:492
+msgid "Text will be taken from the customer note."
+msgstr ""
+
+#. translators: %s: URL
+#: class/wcSmsApiIntegration.php:556
+msgid "You are running out of funds. In order to keep sending SMS messages, <a href=\"%s\" target=\"_blank\">log in</a> to you SMSAPI account and buy more points."
+msgstr ""
+
+#: woocommerce-smsapi.php:107
+msgid "Settings"
+msgstr ""
+
+#: woocommerce-smsapi.php:108
+msgid "Docs"
+msgstr ""
+
+#: woocommerce-smsapi.php:109
+msgid "Support"
+msgstr ""

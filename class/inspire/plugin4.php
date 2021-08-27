@@ -125,11 +125,6 @@ if (!class_exists('InspirePlugin4')) {
         {
             return $this->_pluginNamespace;
         }
-            
-        protected function _initPluginUpdates()
-        {
-            add_filter('pre_set_site_transient_update_plugins', array($this, 'checkForPluginUpdate'));
-        }
              
         protected function getPluginUpdateName()
         {

@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: WooCommerce SMSAPI.pl
+ * Plugin Name: SMSAPI.pl WooCommerce
  * Plugin URI: http://www.wpdesk.pl/sklep/smsapi-woocommerce/
  * Description: WooCommerce integration with <a href="https://ssl.smsapi.pl/rejestracja/4PT2" target="_blank">SMSAPI.pl</a>.
- * Version: 2.0
+ * Version: 2.1
  * Author: Inspire Labs
- * Author URI: http://www.inspirelabs.pl/
+ * Author URI: http://www.inspirelabs.pl/License: GPLv2 or later
  * Text Domain: woocommerce-smsapi
  * Domain Path: /languages
  *

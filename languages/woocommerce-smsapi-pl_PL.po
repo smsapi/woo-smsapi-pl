@@ -38,8 +38,8 @@ msgid "Inspire Labs"
 msgstr "Inspire Labs"
 
 #. Author URI of the plugin
-msgid "http://www.inspirelabs.pl/"
-msgstr "http://www.inspirelabs.pl/"
+msgid "http://www.inspirelabs.pl/License: GPLv2 or later"
+msgstr "http://www.inspirelabs.pl/License: GPLv2 or later"
 
 #: class/wcSmsApiIntegration.php:38
 msgid "SMSAPI"

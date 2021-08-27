@@ -207,7 +207,7 @@ class WcSmsApiIntegration extends WC_Integration
                         <?php if ($this->getSmsMarketingUserConsent($user->ID)) {
                             echo 'checked';
                         } ?> >
-                    <label for="woocommerce_sms_marketing_consent"><?php echo $this->checkbox_text; ?></label>
+                    <label for="woocommerce_sms_marketing_consent"><?php echo esc_html($this->checkbox_text); ?></label>
                 </td>
             </tr>
         </table>
@@ -382,13 +382,13 @@ class WcSmsApiIntegration extends WC_Integration
                             }
                         }
                         ?>
-                        <p><?php _e('Connection status:', 'woocommerce-smsapi'); ?> <?php echo $status; ?></p>
+                        <p><?php _e('Connection status:', 'woocommerce-smsapi'); ?> <?php echo esc_html($status); ?></p>
                         <?php
                     }
                     ?>
                 </div>
                 <div class="inspire-sidebar">
-                    <a href="http://www.wpdesk.pl/?utm_source=smsapi-settings&utm_medium=banner&utm_campaign=woocommerce-plugins" target="_blank"><img src="<?php echo $this->pluginUrl(); ?>/assets/images/wpdesk-woocommerce-plugins.png" alt="Wtyczki do WooCommerce" height="250" width="250" /></a>
+                    <a href="http://www.wpdesk.pl/?utm_source=smsapi-settings&utm_medium=banner&utm_campaign=woocommerce-plugins" target="_blank"><img src="<?php echo esc_url($this->pluginUrl()); ?>/assets/images/wpdesk-woocommerce-plugins.png" alt="Wtyczki do WooCommerce" height="250" width="250" /></a>
                 </div>
             </div>
         </div>
